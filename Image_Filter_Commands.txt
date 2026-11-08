@@ -340,7 +340,7 @@ paper-like shapes, visible cutout edges, and realistic layer shadows.
 adding directional motion blur to the surroundings. Create the
 appearance of a high-speed action photograph.
 
-/profile Changes the Aspect Ratio of the image to be converted into a profile picture to be used for Social Media Apps like (Youtube, TikTok, Instagram, etc)
+/profile Convert the uploaded image into a professional social media profile picture. Change the canvas aspect ratio to 1:1 (square). Keep the main subject centered and properly framed. Adjust the crop and composition to ensure the subject's face and important features remain fully visible, with enough surrounding space to accommodate circular profile-picture cropping. Preserve the original appearance, facial features, clothing, and identity. Extend or intelligently reconstruct the background when necessary instead of cutting off important parts of the subject. Optimize the final composition for profile pictures on YouTube, TikTok, Instagram, and other social media platforms.
 
 EXAMPLE COMMAND COMBINATIONS
 
