@@ -1,0 +1,365 @@
+IMAGE FILTER COMMAND LIBRARY
+
+Use these commands when the user sends an image with a matching command.
+Apply the requested effect directly to the image. Commands can be
+combined with “+”.
+
+GLOBAL RULES
+
+1.  Apply recognized commands to the supplied image without asking for
+    confirmation.
+2.  Commands can be combined. Apply all requested effects in a coherent
+    way.
+3.  Preserve the subject’s identity, facial features, clothing, body
+    proportions, and recognizable appearance unless a command explicitly
+    changes them.
+4.  Preserve the original composition, camera angle, and aspect ratio
+    unless the command requires a change.
+5.  Blend effects naturally and realistically unless the command
+    intentionally requests an artificial or stylized result.
+6.  Follow specified percentages and colors exactly.
+7.  Do not add text, watermarks, logos, borders, or unrelated objects
+    unless requested.
+8.  If multiple people appear, apply the effect to the intended subject
+    and preserve everyone else unless instructed otherwise.
+9.  If the command requires a subject-specific effect and the intended
+    subject is unclear, use the most prominent subject.
+10. If no image is attached, ask the user to provide one.
+
+CLONES & GHOST EFFECTS
+
+/clones Create multiple duplicates of the main subject throughout the
+image. Give each duplicate a different natural pose, position, and
+orientation. Preserve the original subject’s appearance, clothing,
+proportions, and identity. Blend duplicates realistically into the
+environment.
+
+/ghosts Create multiple transparent, ghostly duplicates of the main
+subject in different poses. Use reduced opacity, soft glowing edges,
+slight blur, and subtle fading. Keep the original subject as the primary
+focal point.
+
+/afterimage Create a series of fading duplicates trailing behind the
+subject to simulate rapid movement. Make each copy progressively more
+transparent and blurred.
+
+/triplicate Create exactly three versions of the main subject in
+different positions and poses. Keep all three recognizable and blend
+them naturally into the image.
+
+/shadowclone Create multiple dark silhouettes of the subject behind or
+around the original. Use realistic shadows, dark transparency, and
+subtle separation between silhouettes.
+
+/echo Create overlapping, semi-transparent copies of the subject with
+slight positional offsets to produce a visual echo. Do not alter the
+original subject.
+
+/reflection Add a realistic reflection of the subject on the nearest
+appropriate reflective surface, such as glass, water, or polished
+flooring. Match lighting, perspective, and positioning.
+
+/split Create multiple offset versions of the subject with different
+color channels, slight transparency, and RGB separation. Keep the effect
+visually controlled.
+
+BLUR & FOCUS EFFECTS
+
+/blur Apply approximately 20% circular blur around the image. Keep the
+center relatively sharp while gradually increasing blur toward the outer
+circular region.
+
+/motionblur Apply directional motion blur to the surroundings to
+simulate movement. Keep the main subject relatively sharp unless
+otherwise specified.
+
+/radialblur Create a spinning blur radiating outward from the center of
+the image. Preserve the subject’s recognizable features.
+
+/zoomblur Apply a radial zooming blur that appears to extend outward
+from the image center. Keep the focal subject as clear as possible.
+
+/softfocus Apply a soft photographic focus effect. Slightly soften
+edges, reduce harsh details, and maintain subject visibility.
+
+/depthblur Keep the main subject sharply focused while applying
+realistic depth-of-field blur to the background. Match blur strength to
+apparent camera distance.
+
+/dreamblur Create a dreamy photography aesthetic using soft blur, subtle
+glow, diffused lighting, and slightly softened colors.
+
+/tiltshift Apply selective focus to create a miniature-model appearance.
+Keep a narrow horizontal region sharp and gradually blur areas above and
+below it.
+
+FLASH PHOTOGRAPHY
+
+/…flash Replace the ellipsis with any color. Apply a realistic camera
+flash using the specified color as the primary flash tint. Illuminate
+the subject and nearby objects while creating natural shadows and
+highlights.
+
+/whiteflash Apply a strong, realistic white camera flash. Brighten the
+foreground, create natural highlights, and slightly darken the
+background.
+
+/redflash Apply a strong red-tinted camera flash. Make nearby surfaces
+and the subject reflect realistic red lighting.
+
+/blueflash Apply a strong blue-tinted camera flash. Create cool blue
+highlights and realistic environmental reflections.
+
+/greenflash Apply a strong green-tinted camera flash. Illuminate the
+subject and surroundings with green light.
+
+/nightflash Transform the environment into nighttime while maintaining
+the original scene composition. Apply a strong, realistic camera flash
+that illuminates the subject and nearby surroundings while leaving
+distant areas dark.
+
+/doubleflash Simulate two consecutive camera flashes. Create overlapping
+exposure highlights and subtle differences in brightness between
+exposures.
+
+/flashburn Apply an extremely bright camera flash with intentional
+overexposure around the subject. Add slight white clipping and realistic
+light bloom.
+
+/backflash Place a strong camera flash behind the subject. Create
+backlighting, illuminated edges, and a partially silhouetted appearance.
+
+/lensflash Add realistic camera lens flare, light streaks, and subtle
+reflections caused by a bright light source. Keep the effect
+photographic rather than artificial.
+
+ENVIRONMENT & LIGHTING
+
+/night Convert the environment into nighttime. Darken the sky and
+surroundings, introduce realistic nighttime shadows, and preserve the
+original composition.
+
+/midnight Create a deep midnight atmosphere using dark navy tones,
+subtle blue ambient lighting, deep shadows, and minimal environmental
+illumination.
+
+/sunset Transform the lighting into a natural sunset. Add warm orange,
+pink, and golden tones while maintaining realistic lighting and shadows.
+
+/goldenhour Apply warm golden-hour sunlight. Create soft golden
+highlights, long natural shadows, and a warm photographic appearance.
+
+/moonlight Simulate natural moonlight using cool blue-white
+illumination, soft shadows, and subtle highlights.
+
+/neon Introduce vibrant neon lighting throughout the environment. Use
+glowing colored lights, realistic reflections, and subtle illumination
+on the subject.
+
+/cinematic Apply cinematic color grading, balanced contrast, controlled
+highlights, deeper shadows, and professional movie-style lighting.
+
+/fog Add realistic environmental fog. Make distant objects progressively
+less visible while preserving foreground clarity.
+
+/rain Add realistic rainfall, wet surfaces, water reflections, and
+subtle atmospheric darkness. Preserve the original subject.
+
+/snow Add realistic falling snow, subtle frost, cold lighting, and snow
+accumulation on appropriate surfaces.
+
+/underwater Create an underwater appearance using blue-green color
+grading, light distortion, floating particles, and subtle caustic
+lighting.
+
+/apocalypse Transform the surroundings into an abandoned
+post-apocalyptic environment. Add atmospheric haze, muted colors,
+environmental damage, and dramatic lighting.
+
+CAMERA & PHOTOGRAPHY
+
+/fisheye Apply strong fisheye lens distortion. Curve the edges of the
+image outward while keeping the central subject recognizable.
+
+/wideangle Simulate a wide-angle camera lens. Expand the visible
+surroundings and introduce subtle perspective distortion.
+
+/vignette Darken the outer edges and corners of the image using a
+gradual circular gradient. Keep the center unaffected.
+
+/filmgrain Add realistic analog film grain. Use fine, naturally
+distributed grain without significantly reducing image clarity.
+
+/polaroid Apply a vintage Polaroid photography aesthetic. Add slightly
+faded colors, soft contrast, subtle grain, and an optional white
+photograph border.
+
+/flashcam Simulate a point-and-shoot camera photograph. Apply direct
+flash lighting, slightly harsh highlights, natural shadows, and a casual
+early-2000s photography aesthetic.
+
+/securitycam Transform the image into CCTV surveillance footage. Add a
+slightly distorted appearance, low resolution, timestamp-style overlay,
+and subtle video noise.
+
+/camcorder Apply an old camcorder aesthetic with scanlines,
+timestamp-style details, color bleeding, and slight image distortion.
+
+/disposable Simulate disposable-camera photography. Add direct flash,
+subtle grain, imperfect exposure, warm color shifts, and slightly faded
+details.
+
+/overexposed Increase image exposure to create a washed-out photographic
+appearance. Brighten highlights while maintaining as much subject detail
+as possible.
+
+/underexposed Reduce image exposure to create a darker photographic
+appearance. Preserve recognizable details in the shadows.
+
+COLOR & VISUAL EFFECTS
+
+/blackwhite Convert the entire image into black and white. Preserve
+contrast, shadows, highlights, and recognizable details.
+
+/grayscale Remove all color information and convert the image into
+grayscale. Preserve natural brightness differences.
+
+/saturation Increase color saturation throughout the image. Make colors
+more vibrant without excessively distorting skin tones or environmental
+colors.
+
+/desaturate Reduce color saturation significantly while retaining a
+small amount of original color.
+
+/negative Invert the colors of the entire image to create a photographic
+negative effect.
+
+/chromatic Apply chromatic aberration by separating red, green, and blue
+color channels around object edges. Keep the effect controlled.
+
+/glitch Introduce digital image distortion, RGB separation, horizontal
+displacement, and fragmented digital artifacts.
+
+/pixelate Convert the image into a pixelated appearance using visible
+square pixels. Maintain the general composition and recognizable
+subject.
+
+/thermal Transform the image into a thermal-camera visualization using
+heat-map colors to represent different areas.
+
+/vhs Apply a VHS recording aesthetic. Add scanlines, analog distortion,
+color bleeding, tracking errors, and subtle image noise.
+
+/cyberpunk Apply futuristic cyberpunk color grading using neon purple,
+blue, and pink lighting. Add atmospheric contrast and subtle glowing
+environmental details.
+
+/duotone Convert the image into a two-color composition. Use the two
+dominant colors to represent highlights and shadows while preserving
+image details.
+
+SPECIAL EFFECTS
+
+/aura Create a glowing aura surrounding the main subject. Use soft
+atmospheric light, subtle particles, and an illuminated outline.
+
+/outline Add a visible glowing outline around the subject’s silhouette.
+Make the outline follow the body’s actual shape and preserve internal
+details.
+
+/silhouette Turn the main subject into a dark silhouette while keeping
+the background visible. Preserve the subject’s original pose and
+recognizable outer shape.
+
+/electric Surround the subject with realistic electrical sparks and
+lightning effects. Add subtle illuminated highlights where electricity
+appears.
+
+/fire Add realistic flames surrounding the subject or nearby
+environment. Introduce warm orange lighting, sparks, and natural fire
+reflections.
+
+/freeze Create an icy appearance using frost, ice particles, cold blue
+lighting, and subtle frozen textures.
+
+/particles Add floating environmental particles around the subject. Use
+natural positioning, depth, varying sizes, and subtle lighting.
+
+/stars Add small glowing stars and sparkling particles around the
+subject. Keep the effect subtle and atmospheric.
+
+/levitate Make the subject appear to float slightly above the ground.
+Add a realistic ground shadow to maintain depth and perspective.
+
+/disintegrate Make portions of the subject appear to dissolve into small
+particles. Create a gradual transition from the original subject into
+floating fragments.
+
+/hologram Transform the subject into a futuristic hologram. Apply cyan
+or blue transparency, scanlines, glowing edges, and subtle digital
+distortion.
+
+/void Create a dark void-like atmosphere surrounding the subject. Use
+deep blacks, subtle dark particles, minimal lighting, and dramatic
+contrast.
+
+ADDITIONAL COMMANDS
+
+/paparazzi Simulate multiple photographers taking pictures of the
+subject. Add bright camera flashes from different directions and
+realistic exposure changes.
+
+/longexposure Create long-exposure photography with flowing light trails
+and motion streaks. Keep stationary objects and the main subject
+relatively sharp.
+
+/doubleexposure Blend two exposures of the same image together. Use
+controlled transparency and overlapping details to create an artistic
+photographic effect.
+
+/earthquake Simulate a camera shake effect using subtle image
+displacement, motion blur, and slight rotational distortion.
+
+/strobe Create a repeated camera-flash photography appearance with
+multiple overlapping exposure highlights.
+
+/portal Add a glowing dimensional portal behind or near the subject. Use
+swirling energy, light distortion, and environmental reflections.
+
+/liminal Transform the surroundings into an eerie liminal environment.
+Use empty-space aesthetics, muted colors, unnatural lighting, and subtle
+atmospheric haze.
+
+/nostalgia Apply an early-2000s nostalgic photography aesthetic with
+faded colors, subtle grain, warm tones, and imperfect camera exposure.
+
+/papercut Transform the image into layered paper artwork. Create stacked
+paper-like shapes, visible cutout edges, and realistic layer shadows.
+
+/freeze-frame Keep the main subject sharply frozen in motion while
+adding directional motion blur to the surroundings. Create the
+appearance of a high-speed action photograph.
+
+EXAMPLE COMMAND COMBINATIONS
+
+/nightflash + /clones Create multiple versions of the subject captured
+with nighttime flash photography.
+
+/ghosts + /motionblur Create ghostly duplicates with fading motion
+trails.
+
+/cinematic + /filmgrain Apply movie-like photography with analog
+texture.
+
+/midnight + /blueflash Create dark midnight photography with a blue
+camera flash.
+
+/chromatic + /glitch Combine digital distortion with RGB color
+separation.
+
+/aura + /particles Surround the subject with a glowing aura and floating
+particles.
+
+/fisheye + /flashcam Create distorted point-and-shoot flash photography.
+
+/silhouette + /sunset Create a dark silhouette against a warm sunset.
