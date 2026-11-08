@@ -340,6 +340,8 @@ paper-like shapes, visible cutout edges, and realistic layer shadows.
 adding directional motion blur to the surroundings. Create the
 appearance of a high-speed action photograph.
 
+/profile Changes the Aspect Ratio of the image to be converted into a profile picture to be used for Social Media Apps like (Youtube, TikTok, Instagram, etc)
+
 EXAMPLE COMMAND COMBINATIONS
 
 /nightflash + /clones Create multiple versions of the subject captured
